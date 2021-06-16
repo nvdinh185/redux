@@ -33,7 +33,7 @@ const renderHobbyList = (hobbyList) => {
     const ulElement = document.querySelector("#hobbyListId");
     if (!ulElement) return;
 
-    // reset previos content of ul
+    // reset previous content of ul
     ulElement.innerHTML = '';
 
     for (const hobby of hobbyList) {
@@ -42,8 +42,6 @@ const renderHobbyList = (hobbyList) => {
 
         ulElement.appendChild(liElement);
     }
-
-
 }
 
 // RENDER INITIAL HOBBY LIST
