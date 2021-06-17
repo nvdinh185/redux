@@ -1,5 +1,3 @@
-// console.log(window.Redux);
-
 const { createStore } = window.Redux;
 
 // state
