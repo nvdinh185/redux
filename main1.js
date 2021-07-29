@@ -52,7 +52,7 @@ if (hobbyFormElement) {
         e.preventDefault();
 
         const hobbyTextElement = hobbyFormElement.querySelector("#hobbyTextId");
-        if (!hobbyTextElement) return;
+        if (!hobbyTextElement.value) return;
 
         // console.log("Submit", hobbyTextElement.value);
         const action = {
